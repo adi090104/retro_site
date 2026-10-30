@@ -1,0 +1,17 @@
+node_modules
+dist
+.DS_Store
+*.log
+
+# Secrets / local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+.npmrc
+
+# Editor
+.vscode
+.idea
